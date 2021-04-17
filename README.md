@@ -21,16 +21,33 @@ Para crear el bot seguimos los siguientes pasos:
 
    1.5. Ya podemos acceder al bot, a través de la dirección t.me/ControlRBPbot.
 
+![Creación del bot](https://github.com/joselquin/CamaraRBPi/blob/main/imagenes/Imagen1.png)
+
 2.- Programación del bot.
 
-Este paso lo hacemos ya en la RBP. Metemos en un editor (yo uso XXXXXX) el programa bot_telegram.py que está en este repositorio. Y lo ejecutamos desde la terminal:
+Este paso lo hacemos ya en la RBP. Metemos en un editor (yo uso XXXXXX) el programa bot_telegram.py que está en este repositorio. 
+
+Es necesario cambiar las variables:
+
+      tiroriro
+      tiroriro2
+
+La primera es el token que nos dió BotFather. EL segundo es el ID de usuario que podremos ver en la termnal de la RBP al ejecutar el programa. De momento puede ponerse un código cualquiera aleatorio. 
+
+Ejecutamos el programa desde la terminal:
 
         python bot_telegram.py
         
 3.- Control desde el bot.
 
-Ahora ya podemos ir al bot de Telegram, desde la app o desde la webapp, y ejecutar los comandos, que viene como un mosaico debajo de la barra de entrada de texto. En este programa tenemos habilitados de momento los siguientes:
+Ahora ya podemos ir al bot de Telegram, desde la app o desde la webapp, y ejecutar los comandos, que viene como un mosaico debajo de la barra de entrada de texto. 
+
+Dado que hasta ahora tenemnos programado un ID de usuario aleatorio, en la terminal de RBP veremos que nos sale un mensaje "Acceso denegado", pero también nos muestra el código que necesitamos. VOlvemos al programa en la RBP, modificamos el ID de usuario, grabamos y lo volvemos a ejecutar en la terminal. Ahora ya debería funcionar todo correctamente.
+
+![Arranque del bot](https://github.com/joselquin/CamaraRBPi/blob/main/imagenes/Imagen2.png)
+
+En este programa tenemos habilitados de momento los siguientes:
 
     
-
+![Sacar una foto con el bot](https://github.com/joselquin/CamaraRBPi/blob/main/imagenes/Imagen3.png)
 
