@@ -49,5 +49,5 @@ Dado que hasta ahora tenemnos programado un ID de usuario aleatorio, en la termi
 En este programa tenemos habilitados de momento los siguientes:
 
     
-![Sacar una foto con el bot](https://github.com/joselquin/CamaraRBPi/blob/main/imagenes/Imagen3.png)
+![Sacar una foto con el bot](https://github.com/joselquin/CamaraRBPi/blob/main/imagenes/imagen3.png)
 
