@@ -29,10 +29,14 @@ Este paso lo hacemos ya en la RBP. Metemos en un editor (yo uso XXXXXX) el progr
 
 Es necesario cambiar las variables:
 
-      tiroriro
-      tiroriro2
+      TOKEN
+      ncid
 
-La primera es el token que nos dió BotFather. EL segundo es el ID de usuario que podremos ver en la termnal de la RBP al ejecutar el programa. De momento puede ponerse un código cualquiera aleatorio. 
+La primera es el token que nos dió BotFather. La segunda es el ID de usuario que podremos ver en la termnal de la RBP al ejecutar el programa. De momento puede ponerse un código cualquiera aleatorio. Para mayor seguridad, se han guardado estas variables en un archivo config.py (que no se ha subido a Github). Para poder usar el programa, crea un archivo config.py y escribe en él los valores de estas variables. Ejemplo:
+
+      TOKEN = "1538026615:ADH0AsUv4np-1qiFSzLNMGpLE5ZCZipFxtg"  # Cambiar por el token real
+      ncid = 268259754     # Cambiar por el ncid real
+
 
 Ejecutamos el programa desde la terminal:
 
